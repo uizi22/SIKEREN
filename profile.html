@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Profile — S.I.KEREN</title>
+<meta name="description" content="独立時計師ケレンのプロフィール・経歴・哲学。">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+
+<canvas id="water-canvas"></canvas>
+<div class="page-mist"></div>
+
+<header class="topbar">
+  <a href="index.html" class="brand">
+    <img src="assets/logo_itoiwa.png" class="brand-logo" alt="S.I.KEREN logo">
+    <span class="brand-name">S.I.KEREN</span>
+  </a>
+  <nav>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="profile.html" class="active">Profile</a></li>
+      <li><a href="products.html">Collection</a></li>
+      <li><a href="craftsmanship.html">Craft</a></li>
+      <li><a href="news.html">News</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+  <!-- PAGE HEADER -->
+  <section style="padding-top: 10rem; padding-bottom: 4rem;">
+    <div class="container-narrow text-center reveal">
+      <div class="eyebrow">Profile</div>
+      <h1 class="display gradient-text">The Watchmaker.</h1>
+      <span class="subtitle-jp">時 を 紡 ぐ 者</span>
+    </div>
+  </section>
+
+  <!-- INTRO -->
+  <section class="compact">
+    <div class="container">
+      <div class="grid grid-2" style="align-items: center;">
+        <div class="piece">
+          <div class="piece-image no-photo" style="aspect-ratio: 4 / 5;"><img src="assets/profile.jpg" class="piece-photo" alt="" onload="this.closest('.piece-image').classList.remove('no-photo')" onerror="this.closest('.piece-image').classList.add('no-photo')"><div class="photo-hint"><span>assets/profile.jpg</span></div></div>
+        </div>
+
+        <div class="reveal">
+          <div class="eyebrow">Keren</div>
+          <h2>Independent Watchmaker</h2>
+          <span class="subtitle-jp">独 立 時 計 師</span>
+          <p class="lead mt-4" style="margin-top: 2.5rem;">
+            時計の開発設計から製造まで、すべてを自らの手で行う独立時計師です。
+          </p>
+          <p class="lead mt-2">
+            機械工学の精密さと、宝石のような透明感。
+            その交わる一点に、わたしの時計は生まれます。
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PHILOSOPHY -->
+  <section>
+    <div class="container">
+      <div class="section-head center reveal">
+        <div class="eyebrow">Philosophy</div>
+        <h2>Water, Light, Time.</h2>
+        <span class="subtitle-jp">水 ・ 光 ・ 時</span>
+      </div>
+
+      <div class="grid grid-3">
+        <div class="card reveal">
+          <h3>Water</h3>
+          <span class="subtitle-jp" style="margin-top: 0.3rem;">水</span>
+          <p class="mt-2" style="margin-top: 1.5rem;">
+            水のように流動しながら、常に同じ川であり続ける時計。
+            動的な静寂が、時計の本質です。
+          </p>
+        </div>
+
+        <div class="card reveal">
+          <h3>Light</h3>
+          <span class="subtitle-jp" style="margin-top: 0.3rem;">光</span>
+          <p class="mt-2" style="margin-top: 1.5rem;">
+            宝石のように光を集め、屈折させ、解き放つ。
+            素材の光学的性質を最大限に引き出します。
+          </p>
+        </div>
+
+        <div class="card reveal">
+          <h3>Time</h3>
+          <span class="subtitle-jp" style="margin-top: 0.3rem;">時</span>
+          <p class="mt-2" style="margin-top: 1.5rem;">
+            時は流れるのではなく、結晶する。
+            ひとつの時計は、凝縮された時間そのものです。
+          </p>
+        </div>
+      </div>
+
+      <div class="quote-block reveal">
+        <p class="quote-text jp-serif">
+          川 の 水 は 同 じ よ う に 見 え て、<br>
+          同 じ 水 が 二 度 と 流 れ る こ と は な い。<br>
+          時 計 も ま た、同 じ で あ る。
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE / TIMELINE -->
+  <section>
+    <div class="container-narrow">
+      <div class="section-head reveal">
+        <div class="eyebrow">Experience</div>
+        <h2>Timeline.</h2>
+        <span class="subtitle-jp">年 譜</span>
+      </div>
+
+      <div class="timeline reveal">
+        <div class="timeline-item">
+          <div class="timeline-date">Beginning</div>
+          <div class="timeline-title">時計との出会い</div>
+          <div class="timeline-text">
+            幼少期、分解した腕時計の内部にあった小宇宙との出会いから、
+            この道は静かに始まっていました。
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-date">Apprenticeship</div>
+          <div class="timeline-title">修業と基礎</div>
+          <div class="timeline-text">
+            精密機械工学、CAD設計、CNC加工、研磨技術、ムーブメント調整。
+            時計製造のあらゆる基礎技術を、年月をかけて身につけました。
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-date">Independence</div>
+          <div class="timeline-title">独立時計師として</div>
+          <div class="timeline-text">
+            自らのアトリエを構え、ひとりで設計・製造・調整を行うようになります。
+            既存の規格に縛られず、自由な時計制作が始まりました。
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-date">La Couronne</div>
+          <div class="timeline-title">ハイエンドライン「La Couronne」</div>
+          <div class="timeline-text">
+            ブランドの最高峰となるコレクションを発表。
+            透明感と気品を結晶化した、限定制作の系譜が生まれます。
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-date">L'Arbre</div>
+          <div class="timeline-title">「L'Arbre du Temps」構想</div>
+          <div class="timeline-text">
+            生命の分類学のように枝分かれするシリーズ、「時の樹」を構想・展開。
+            ミドルクラスながら、多様性と進化を時計で語る試みです。
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-date">Now</div>
+          <div class="timeline-title">継続する対話</div>
+          <div class="timeline-text">
+            現在、カスタムメイド制作、新シリーズ、技術研究を並行して進めています。
+            ひとつひとつの時計と、じっくり対話を重ねながら。
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- VALUES -->
+  <section>
+    <div class="container">
+      <div class="section-head center reveal">
+        <div class="eyebrow">Values</div>
+        <h2>Six Principles.</h2>
+        <span class="subtitle-jp">六 つ の 指 針</span>
+      </div>
+
+      <div class="grid grid-3">
+        <div class="card reveal">
+          <h3>Precision</h3>
+          <span class="subtitle-jp" style="margin-top: 0.3rem;">精 密</span>
+          <p class="mt-2" style="margin-top: 1.5rem;">マイクロメートル単位の正確さを、日々の規範に。</p>
+        </div>
+        <div class="card reveal">
+          <h3>Transparency</h3>
+          <span class="subtitle-jp" style="margin-top: 0.3rem;">透 明 性</span>
+          <p class="mt-2" style="margin-top: 1.5rem;">素材の光学性を活かし、内部の美を外へ。</p>
+        </div>
+        <div class="card reveal">
+          <h3>Independence</h3>
+          <span class="subtitle-jp" style="margin-top: 0.3rem;">独 立</span>
+          <p class="mt-2" style="margin-top: 1.5rem;">誰の意向にも従わず、自らの理念だけを追う。</p>
+        </div>
+        <div class="card reveal">
+          <h3>Patience</h3>
+          <span class="subtitle-jp" style="margin-top: 0.3rem;">静 謐</span>
+          <p class="mt-2" style="margin-top: 1.5rem;">時間をかけ、ひとつに向き合う。それこそが贅沢。</p>
+        </div>
+        <div class="card reveal">
+          <h3>Evolution</h3>
+          <span class="subtitle-jp" style="margin-top: 0.3rem;">進 化</span>
+          <p class="mt-2" style="margin-top: 1.5rem;">生命が多様へ向かうように、時計も分化していく。</p>
+        </div>
+        <div class="card reveal">
+          <h3>Handwork</h3>
+          <span class="subtitle-jp" style="margin-top: 0.3rem;">手 仕 事</span>
+          <p class="mt-2" style="margin-top: 1.5rem;">機械の正確さと、手の記憶。その共存を大切に。</p>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="footer-brand">
+    <img src="assets/logo_itoiwa.png" class="footer-logo-img" alt="S.I.KEREN logo">
+    <span class="footer-brand-name">S.I.KEREN</span>
+  </div>
+  <div class="footer-links">
+    <a href="profile.html">Profile</a>
+    <a href="products.html">Collection</a>
+    <a href="craftsmanship.html">Craft</a>
+    <a href="news.html">News</a>
+    <a href="contact.html">Contact</a>
+  </div>
+  <div class="footer-copy">© 2026 S.I.KEREN — Independent Watchmaker</div>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+<script src="assets/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>S.I.KEREN — Independent Watchmaker</title>
+<meta name="description" content="独立時計師ケレン。水と光の結晶のような精密時計。">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+
+<canvas id="water-canvas"></canvas>
+<div class="page-mist"></div>
+
+<header class="topbar">
+  <a href="index.html" class="brand">
+    <img src="assets/logo_itoiwa.png" class="brand-logo" alt="S.I.KEREN logo">
+    <span class="brand-name">S.I.KEREN</span>
+  </a>
+  <nav>
+    <ul class="nav-links">
+      <li><a href="index.html" class="active">Home</a></li>
+      <li><a href="profile.html">Profile</a></li>
+      <li><a href="products.html">Collection</a></li>
+      <li><a href="craftsmanship.html">Craft</a></li>
+      <li><a href="news.html">News</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+  <!-- HERO -->
+  <section class="hero">
+
+    <!-- 自動スクロール写真帯（最上部） -->
+    <!--
+      【写真の追加・差し替え方法】
+      assets/ フォルダに以下のファイル名で .jpg を置くと自動表示されます：
+        hero-01.jpg  hero-02.jpg  hero-03.jpg
+        hero-04.jpg  hero-05.jpg  hero-06.jpg
+      写真がない場合はグラデーションのプレースホルダーが表示されます。
+    -->
+    <div class="hero-reel" aria-hidden="true">
+      <div class="hero-reel-track">
+        <figure class="reel-item" data-src="assets/hero-01.jpg"></figure>
+        <figure class="reel-item" data-src="assets/hero-02.jpg"></figure>
+        <figure class="reel-item" data-src="assets/hero-03.jpg"></figure>
+        <figure class="reel-item" data-src="assets/hero-04.jpg"></figure>
+        <figure class="reel-item" data-src="assets/hero-05.jpg"></figure>
+        <figure class="reel-item" data-src="assets/hero-06.jpg"></figure>
+        <!-- ループ用複製 -->
+        <figure class="reel-item" data-src="assets/hero-01.jpg"></figure>
+        <figure class="reel-item" data-src="assets/hero-02.jpg"></figure>
+        <figure class="reel-item" data-src="assets/hero-03.jpg"></figure>
+        <figure class="reel-item" data-src="assets/hero-04.jpg"></figure>
+        <figure class="reel-item" data-src="assets/hero-05.jpg"></figure>
+        <figure class="reel-item" data-src="assets/hero-06.jpg"></figure>
+      </div>
+    </div>
+
+    <!-- テキストブロック（写真の下） -->
+    <div class="hero-text">
+      <div class="hero-kanji">時 を 結 晶 に</div>
+      <h1 class="hero-title">KEREN</h1>
+      <div class="hero-sub">Independent&nbsp;&nbsp;Watchmaker</div>
+      <div class="hero-rule"></div>
+      <div class="hero-quote">水 は 光 を 集 め&emsp;時 は 結 晶 と な る</div>
+    </div>
+
+    <div class="scroll-cue">Scroll</div>
+  </section>
+
+  <!-- INTRODUCTION -->
+  <section id="intro">
+    <div class="container">
+      <div class="reveal" style="max-width: 780px;">
+        <div class="eyebrow">Chapter&nbsp;&nbsp;I</div>
+        <h2>The Drop that Becomes Time.</h2>
+        <span class="subtitle-jp">一 滴 が 時 に な る</span>
+      </div>
+
+      <div class="reveal mt-4" style="max-width: 720px; margin-top: 3rem;">
+        <p class="lead">
+          雨の一滴が水面に落ちて、波紋を描くように。<br>
+          小さな部品のひとつひとつが結びつき、<br>
+          やがて時計という静謐な器になります。
+        </p>
+        <p class="lead mt-2">
+          独立時計師ケレンは、設計から組立まで、<br>
+          すべての工程をひとりの手で行う職人です。<br>
+          透明感と精密さの結晶を、ひとつずつ。
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- FEATURED COLLECTIONS -->
+  <section id="collections">
+    <div class="container">
+      <div class="section-head reveal">
+        <div class="eyebrow">Chapter&nbsp;&nbsp;II</div>
+        <h2>Two Currents.</h2>
+        <span class="subtitle-jp">二 つ の 流 れ</span>
+      </div>
+
+      <div class="grid grid-2" style="gap: 5rem;">
+        <div class="piece">
+          <div class="piece-image no-photo"><img src="assets/collection-crown.jpg" class="piece-photo" alt="" onload="this.closest('.piece-image').classList.remove('no-photo')" onerror="this.closest('.piece-image').classList.add('no-photo')"><div class="photo-hint"><span>assets/collection-crown.jpg</span></div></div>
+          <div class="piece-tag">Haute Horlogerie</div>
+          <h3 class="piece-name">La Couronne</h3>
+          <p class="piece-desc">
+            限定制作の最高峰。ブランドの世界観を純粋に結晶化した、王冠のような気品の系譜。
+          </p>
+        </div>
+
+        <div class="piece">
+          <div class="piece-image no-photo"><img src="assets/collection-tree.jpg" class="piece-photo" alt="" onload="this.closest('.piece-image').classList.remove('no-photo')" onerror="this.closest('.piece-image').classList.add('no-photo')"><div class="photo-hint"><span>assets/collection-tree.jpg</span></div></div>
+          <div class="piece-tag">Evolving Species</div>
+          <h3 class="piece-name">L'Arbre du Temps</h3>
+          <p class="piece-desc">
+            生命の分類学のように枝分かれし、基礎から多様な環境へ進化していくシリーズ。
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SELECTED WORKS -->
+  <section id="works">
+    <div class="container">
+      <div class="section-head reveal">
+        <div class="eyebrow">Chapter&nbsp;&nbsp;III</div>
+        <h2>Selected Works.</h2>
+        <span class="subtitle-jp">作 品 選</span>
+      </div>
+
+      <div class="grid grid-3">
+        <div class="piece">
+          <div class="piece-image no-photo"><img src="assets/work-01.jpg" class="piece-photo" alt="" onload="this.closest('.piece-image').classList.remove('no-photo')" onerror="this.closest('.piece-image').classList.add('no-photo')"><div class="photo-hint"><span>assets/work-01.jpg</span></div></div>
+          <div class="piece-tag">La Couronne — 01</div>
+          <h3 class="piece-name">Clair de Lune</h3>
+          <p class="piece-desc">月光のように透過する限定作品</p>
+        </div>
+
+        <div class="piece">
+          <div class="piece-image no-photo"><img src="assets/work-02.jpg" class="piece-photo" alt="" onload="this.closest('.piece-image').classList.remove('no-photo')" onerror="this.closest('.piece-image').classList.add('no-photo')"><div class="photo-hint"><span>assets/work-02.jpg</span></div></div>
+          <div class="piece-tag">L'Arbre — 基礎種</div>
+          <h3 class="piece-name">Origine I</h3>
+          <p class="piece-desc">進化の起点となる原型</p>
+        </div>
+
+        <div class="piece">
+          <div class="piece-image no-photo"><img src="assets/work-03.jpg" class="piece-photo" alt="" onload="this.closest('.piece-image').classList.remove('no-photo')" onerror="this.closest('.piece-image').classList.add('no-photo')"><div class="photo-hint"><span>assets/work-03.jpg</span></div></div>
+          <div class="piece-tag">L'Arbre — 進化種</div>
+          <h3 class="piece-name">Ondine</h3>
+          <p class="piece-desc">水の精を宿した流動形</p>
+        </div>
+
+        <div class="piece">
+          <div class="piece-image no-photo"><img src="assets/work-04.jpg" class="piece-photo" alt="" onload="this.closest('.piece-image').classList.remove('no-photo')" onerror="this.closest('.piece-image').classList.add('no-photo')"><div class="photo-hint"><span>assets/work-04.jpg</span></div></div>
+          <div class="piece-tag">L'Arbre — 分化種</div>
+          <h3 class="piece-name">Abyssale</h3>
+          <p class="piece-desc">深淵の静けさを封じた形態</p>
+        </div>
+
+        <div class="piece">
+          <div class="piece-image no-photo"><img src="assets/work-05.jpg" class="piece-photo" alt="" onload="this.closest('.piece-image').classList.remove('no-photo')" onerror="this.closest('.piece-image').classList.add('no-photo')"><div class="photo-hint"><span>assets/work-05.jpg</span></div></div>
+          <div class="piece-tag">La Couronne — 02</div>
+          <h3 class="piece-name">Saphir Éternel</h3>
+          <p class="piece-desc">青の永遠を刻む限定作品</p>
+        </div>
+
+        <div class="piece">
+          <div class="piece-image no-photo"><img src="assets/work-06.jpg" class="piece-photo" alt="" onload="this.closest('.piece-image').classList.remove('no-photo')" onerror="this.closest('.piece-image').classList.add('no-photo')"><div class="photo-hint"><span>assets/work-06.jpg</span></div></div>
+          <div class="piece-tag">Bespoke</div>
+          <h3 class="piece-name">Nocturne</h3>
+          <p class="piece-desc">お客様と共に生まれた夜曲</p>
+        </div>
+      </div>
+
+      <div class="text-center mt-4" style="margin-top: 5rem;">
+        <a href="products.html" class="btn"><span>View Collection</span></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- PHILOSOPHY QUOTE -->
+  <section class="compact">
+    <div class="container-narrow">
+      <div class="quote-block reveal">
+        <p class="quote-text jp-serif">
+          時 計 と は、<br>
+          水 が 光 を 宿 す よ う に、<br>
+          静 寂 が 時 を 宿 す 器 で あ る。
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- INVITATION -->
+  <section>
+    <div class="container-narrow text-center">
+      <div class="reveal">
+        <div class="eyebrow">Chapter&nbsp;&nbsp;IV</div>
+        <h2>Begin a Dialogue.</h2>
+        <span class="subtitle-jp">対 話 を は じ め る</span>
+      </div>
+      <p class="lead mt-4" style="margin-top: 2.5rem;">
+        カスタムメイド、ご注文、<br>
+        そしてただの対話のためにも。
+      </p>
+      <div class="mt-4" style="margin-top: 2.5rem;">
+        <a href="contact.html" class="btn"><span>Contact</span></a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="footer-brand">
+    <img src="assets/logo_itoiwa.png" class="footer-logo-img" alt="S.I.KEREN logo">
+    <span class="footer-brand-name">S.I.KEREN</span>
+  </div>
+  <div class="footer-links">
+    <a href="profile.html">Profile</a>
+    <a href="products.html">Collection</a>
+    <a href="craftsmanship.html">Craft</a>
+    <a href="news.html">News</a>
+    <a href="contact.html">Contact</a>
+  </div>
+  <div class="footer-copy">
+    © 2026 S.I.KEREN — Independent Watchmaker
+  </div>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+<script src="assets/script.js"></script>
+</body>
+</html>

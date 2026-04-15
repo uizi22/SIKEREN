@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Craft — S.I.KEREN</title>
+<meta name="description" content="S.I.KERENの製造工程と技術。7段階の工程と品質基準。">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+
+<canvas id="water-canvas"></canvas>
+<div class="page-mist"></div>
+
+<header class="topbar">
+  <a href="index.html" class="brand">
+    <img src="assets/logo_itoiwa.png" class="brand-logo" alt="S.I.KEREN logo">
+    <span class="brand-name">S.I.KEREN</span>
+  </a>
+  <nav>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="profile.html">Profile</a></li>
+      <li><a href="products.html">Collection</a></li>
+      <li><a href="craftsmanship.html" class="active">Craft</a></li>
+      <li><a href="news.html">News</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+  <!-- PAGE HEADER -->
+  <section style="padding-top: 10rem; padding-bottom: 3rem;">
+    <div class="container-narrow text-center reveal">
+      <div class="eyebrow">Craftsmanship</div>
+      <h1 class="display gradient-text">Seven Currents.</h1>
+      <span class="subtitle-jp">七 つ の 流 れ</span>
+      <p class="lead mt-4" style="margin-top: 3rem;">
+        一本の時計が結晶化するまでに辿る、<br>
+        七つの段階。素材と職人の、静謐な対話。
+      </p>
+    </div>
+  </section>
+
+  <!-- 7 STAGES -->
+  <section>
+    <div class="container">
+      <div class="section-head reveal">
+        <div class="eyebrow">Process</div>
+        <h2>The Seven Stages.</h2>
+        <span class="subtitle-jp">七 つ の 工 程</span>
+      </div>
+
+      <div>
+        <div class="process-stage">
+          <div class="process-number">01</div>
+          <div class="process-title">Conception<span class="jp">構 想</span></div>
+          <div class="process-text">
+            光の配分、機構の呼吸、装身具としての佇まい。
+            ひとつの時計に宿るべき世界観を、沈黙の中で見出します。
+            この段階に、しばしば数週間を要します。
+          </div>
+        </div>
+
+        <div class="process-stage">
+          <div class="process-number">02</div>
+          <div class="process-title">Design<span class="jp">設 計</span></div>
+          <div class="process-text">
+            数百の部品が織りなす精密図面。CADでマイクロメートル単位に落とし込み、
+            複数の断面・視点から検証。試作前に、既に時計は完成しています。
+          </div>
+        </div>
+
+        <div class="process-stage">
+          <div class="process-number">03</div>
+          <div class="process-title">Material<span class="jp">素 材</span></div>
+          <div class="process-text">
+            サファイアクリスタル、チタン、高純度ステンレス、特殊ガラス。
+            光学的・機械的性質を最大限に引き出す素材を、一点ずつ選定します。
+          </div>
+        </div>
+
+        <div class="process-stage">
+          <div class="process-number">04</div>
+          <div class="process-title">Cutting<span class="jp">切 削</span></div>
+          <div class="process-text">
+            CNCと手作業の交差点。機械の正確さと、手の記憶が形を結晶化。
+            0.01mm単位で、素材から時計の骨格が浮かび上がります。
+          </div>
+        </div>
+
+        <div class="process-stage">
+          <div class="process-number">05</div>
+          <div class="process-title">Polishing<span class="jp">研 磨</span></div>
+          <div class="process-text">
+            表面を数マイクロメートル単位で磨き上げる工程。
+            光が宿る瞬間を求めて、幾度も研磨を繰り返します。
+            水の表面のような、静謐な光沢が生まれます。
+          </div>
+        </div>
+
+        <div class="process-stage">
+          <div class="process-number">06</div>
+          <div class="process-title">Assembly<span class="jp">組 立</span></div>
+          <div class="process-text">
+            ムーブメントに命を吹き込む段階。ひとつひとつの部品が完全に調和するまで、
+            何日も時間を掛けて。組立は、時計との最初の対話でもあります。
+          </div>
+        </div>
+
+        <div class="process-stage">
+          <div class="process-number">07</div>
+          <div class="process-title">Regulation<span class="jp">調 整</span></div>
+          <div class="process-text">
+            精度の追い込み。年差数秒の世界で、時計が息を整えるまで伴走します。
+            72時間の連続稼働テスト、温度変化試験、耐久試験を経て、完成へ。
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- QUALITY STANDARDS -->
+  <section>
+    <div class="container">
+      <div class="section-head center reveal">
+        <div class="eyebrow">Standards</div>
+        <h2>Quality Criteria.</h2>
+        <span class="subtitle-jp">品 質 基 準</span>
+      </div>
+
+      <div class="quality-grid reveal">
+        <div class="quality-item">
+          <div class="label">Accuracy</div>
+          <div class="value">±5秒<span style="font-size: 0.8rem; opacity: 0.7;">&nbsp;/&nbsp;day</span></div>
+          <div class="note">業界最高水準の精度</div>
+        </div>
+        <div class="quality-item">
+          <div class="label">Annual</div>
+          <div class="value">±20秒<span style="font-size: 0.8rem; opacity: 0.7;">&nbsp;/&nbsp;year</span></div>
+          <div class="note">年間精度保証</div>
+        </div>
+        <div class="quality-item">
+          <div class="label">Water Resistant</div>
+          <div class="value">30m〜</div>
+          <div class="note">High-end では 100m 以上</div>
+        </div>
+        <div class="quality-item">
+          <div class="label">Tolerance</div>
+          <div class="value">±0.01<span style="font-size: 0.8rem; opacity: 0.7;">&nbsp;mm</span></div>
+          <div class="note">加工精度許容差</div>
+        </div>
+        <div class="quality-item">
+          <div class="label">Testing</div>
+          <div class="value">72<span style="font-size: 0.8rem; opacity: 0.7;">&nbsp;hours</span></div>
+          <div class="note">連続稼働テスト</div>
+        </div>
+        <div class="quality-item">
+          <div class="label">Warranty</div>
+          <div class="value">3<span style="font-size: 0.8rem; opacity: 0.7;">&nbsp;years</span></div>
+          <div class="note">無償保証期間</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- MATERIALS -->
+  <section>
+    <div class="container">
+      <div class="section-head center reveal">
+        <div class="eyebrow">Materials</div>
+        <h2>Selected Elements.</h2>
+        <span class="subtitle-jp">選 ば れ た 素 材</span>
+      </div>
+
+      <div class="grid grid-3">
+        <div class="card reveal">
+          <h3>Sapphire Crystal</h3>
+          <span class="subtitle-jp" style="margin-top: 0.3rem;">サファイア</span>
+          <p class="mt-2" style="margin-top: 1.5rem;">
+            人工サファイア。高い透明性と傷耐性。
+            水のような透過と、宝石のような輝きを備えます。
+          </p>
+        </div>
+
+        <div class="card reveal">
+          <h3>Stainless Steel</h3>
+          <span class="subtitle-jp" style="margin-top: 0.3rem;">ステンレス</span>
+          <p class="mt-2" style="margin-top: 1.5rem;">
+            耐腐食性と耐久性に優れた高級時計の標準素材。
+            鏡面研磨で深い光沢が生まれます。
+          </p>
+        </div>
+
+        <div class="card reveal">
+          <h3>Titanium</h3>
+          <span class="subtitle-jp" style="margin-top: 0.3rem;">チタン</span>
+          <p class="mt-2" style="margin-top: 1.5rem;">
+            軽量かつ堅牢。アレルギー対応。
+            冷たい光沢と、肌への優しさを両立します。
+          </p>
+        </div>
+
+        <div class="card reveal">
+          <h3>Ceramic</h3>
+          <span class="subtitle-jp" style="margin-top: 0.3rem;">セラミック</span>
+          <p class="mt-2" style="margin-top: 1.5rem;">
+            光沢性と耐磨耗性に優れ、カラー展開も豊富。
+            独特の高級感を演出します。
+          </p>
+        </div>
+
+        <div class="card reveal">
+          <h3>Gold</h3>
+          <span class="subtitle-jp" style="margin-top: 0.3rem;">金</span>
+          <p class="mt-2" style="margin-top: 1.5rem;">
+            限定作品のみ使用。独特の温かみと重厚感。
+            時間と共に深まる色合いが特徴です。
+          </p>
+        </div>
+
+        <div class="card reveal">
+          <h3>Optical Glass</h3>
+          <span class="subtitle-jp" style="margin-top: 0.3rem;">光学ガラス</span>
+          <p class="mt-2" style="margin-top: 1.5rem;">
+            高屈折率ガラス。光の遊びと透明感を最大化。
+            水面のような奥行きを生み出します。
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PHILOSOPHY QUOTE -->
+  <section class="compact">
+    <div class="container-narrow">
+      <div class="quote-block reveal">
+        <p class="quote-text jp-serif">
+          急 い で い な い。<br>
+          時 計 が、時 間 の 中 で 息 を 整 え る の を、<br>
+          静 か に 待 つ。
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- WARRANTY -->
+  <section class="compact">
+    <div class="container-narrow text-center">
+      <div class="reveal">
+        <div class="eyebrow">Warranty</div>
+        <h2>Three Years of Assurance.</h2>
+        <span class="subtitle-jp">三 年 間 の 保 証</span>
+        <p class="lead mt-4" style="margin-top: 2.5rem;">
+          すべての作品に、3年間の無償保証を。<br>
+          その後も、変わらぬ精度で寄り添えるよう、<br>
+          定期メンテナンスも承っています。
+        </p>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="footer-brand">
+    <img src="assets/logo_itoiwa.png" class="footer-logo-img" alt="S.I.KEREN logo">
+    <span class="footer-brand-name">S.I.KEREN</span>
+  </div>
+  <div class="footer-links">
+    <a href="profile.html">Profile</a>
+    <a href="products.html">Collection</a>
+    <a href="craftsmanship.html">Craft</a>
+    <a href="news.html">News</a>
+    <a href="contact.html">Contact</a>
+  </div>
+  <div class="footer-copy">© 2026 S.I.KEREN — Independent Watchmaker</div>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+<script src="assets/script.js"></script>
+</body>
+</html>
